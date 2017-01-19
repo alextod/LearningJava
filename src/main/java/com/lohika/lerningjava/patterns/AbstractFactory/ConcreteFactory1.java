@@ -8,7 +8,7 @@ public class ConcreteFactory1 implements AbstractFactory {
         return new ProductA();
     }
 
-    public AbstractProductB createProdcutB() {
+    public AbstractProductB createProductB() {
         return new ProductB();
     }
 }

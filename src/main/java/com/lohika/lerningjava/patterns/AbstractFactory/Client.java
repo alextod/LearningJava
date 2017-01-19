@@ -9,7 +9,7 @@ public class Client {
 
     public Client(AbstractFactory abstractFactory) {
         productA = abstractFactory.createProductA();
-        productB = abstractFactory.createProdcutB();
+        productB = abstractFactory.createProductB();
     }
 
     public void execute(){

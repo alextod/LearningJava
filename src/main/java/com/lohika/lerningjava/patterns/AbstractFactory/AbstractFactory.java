@@ -5,5 +5,5 @@ package com.lohika.lerningjava.patterns.AbstractFactory;
  */
 public interface AbstractFactory {
     AbstractProductA createProductA();
-    AbstractProductB createProdcutB();
+    AbstractProductB createProductB();
 }
