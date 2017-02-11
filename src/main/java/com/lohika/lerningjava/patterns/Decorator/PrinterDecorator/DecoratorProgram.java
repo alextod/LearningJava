@@ -1,8 +1,5 @@
-package com.lohika.lerningjava.patterns.Decorator;
+package com.lohika.lerningjava.patterns.Decorator.PrinterDecorator;
 
-/**
- * Created by atodorov on 1/19/2017.
- */
 public class DecoratorProgram {
     public static void main(String[] args) {
         //PrinterInterface printer = new Printer("Hello");

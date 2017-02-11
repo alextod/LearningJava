@@ -1,11 +1,8 @@
-package com.lohika.lerningjava.patterns.Decorator;
+package com.lohika.lerningjava.patterns.Decorator.PrinterDecorator;
 
-/**
- * Created by atodorov on 1/19/2017.
- */
 public abstract class Decorator implements PrinterInterface {
 
-    PrinterInterface component;
+    private PrinterInterface component;
 
     public Decorator(PrinterInterface printerInterface) {
         this.component = printerInterface;

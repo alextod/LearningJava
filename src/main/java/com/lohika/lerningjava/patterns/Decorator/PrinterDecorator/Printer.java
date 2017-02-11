@@ -1,11 +1,8 @@
-package com.lohika.lerningjava.patterns.Decorator;
+package com.lohika.lerningjava.patterns.Decorator.PrinterDecorator;
 
-/**
- * Created by atodorov on 1/19/2017.
- */
 public class Printer implements PrinterInterface {
 
-    String value;
+    private String value;
 
     public Printer(String value) {
         this.value = value;
