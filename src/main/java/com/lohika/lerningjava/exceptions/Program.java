@@ -1,6 +1,6 @@
 package com.lohika.lerningjava.exceptions;
 
-import com.lohika.lerningjava.BinaryTree;
+import com.lohika.lerningjava.datasructures.BinarySearchTree.BinaryTree;
 
 /**
  * Created by atodorov on 10/14/2016.

@@ -1,4 +1,4 @@
-package com.lohika.lerningjava;
+package com.lohika.lerningjava.datasructures.BinarySearchTree;
 
 /**
  * Created by atodorov on 10/14/2016.

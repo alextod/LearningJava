@@ -1,4 +1,4 @@
-package com.lohika.lerningjava.patterns.Composite;
+package com.lohika.lerningjava.patterns.Composite.Shape;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,6 +17,6 @@ public class Composite implements Shape {
     }
 
     public void draw() {
-        components.stream().forEach(Shape::draw);
+        components.forEach(Shape::draw);
     }
 }

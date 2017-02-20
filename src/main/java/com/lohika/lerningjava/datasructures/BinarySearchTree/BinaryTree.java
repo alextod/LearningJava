@@ -1,4 +1,4 @@
-package com.lohika.lerningjava;
+package com.lohika.lerningjava.datasructures.BinarySearchTree;
 
 /**
  * Created by atodorov on 10/14/2016.
@@ -6,6 +6,10 @@ package com.lohika.lerningjava;
 public class BinaryTree <T extends Comparable<T>> {
     private BinaryTreeNode<T> root;
     private int count = 0;
+
+    public BinaryTreeNode getRoot(){
+        return this.root;
+    }
 
     public void add(T value){
         if(root == null){
@@ -69,5 +73,16 @@ public class BinaryTree <T extends Comparable<T>> {
             preOrderTraversal(node.getLeft());
             preOrderTraversal(node.getRight());
         }
+    }
+
+    public int getHeight(BinaryTreeNode root){
+        if(root == null){
+            return -1;
+        }
+
+        int leftHeight = getHeight(root.getLeft());
+        int rightHeight = getHeight(root.getRight());
+
+        return Math.max(leftHeight, rightHeight) + 1;
     }
 }

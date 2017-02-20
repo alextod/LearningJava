@@ -1,8 +1,7 @@
-package com.lohika.lerningjava;
+package com.lohika.lerningjava.exceptions;
 
 import com.lohika.lerningjava.abstractions.Inning;
 import com.lohika.lerningjava.abstractions.Storm;
-import com.lohika.lerningjava.exceptions.*;
 
 public class StormyInning extends Inning implements Storm {
 
